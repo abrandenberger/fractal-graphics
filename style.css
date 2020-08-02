@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div {
+  /* border: 1px solid #c3c3c3; */
+  width: 160px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
