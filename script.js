@@ -20,7 +20,7 @@ scene.addPlane(new Plane(new Vec3(0, 0, 9), new Vec3(0, -1, -1).normalized()));
 // scene.addPlane(new Plane(new Vec3(0, 0, 5), new Vec3(0, 0, -1).normalized(), 'mirror'));
 let printed = false; // DEBUG STUFF (can't print too much) 
 // let printCount = 100; // DEBUG STUFF
-generateFractal(new Vec3(0, 0, 4), new Vec3(0,1,0), 1, 4)
+generateFractal(new Vec3(0, 0, 4), new Vec3(0,1,0), 1, 3)
 
 
 function handleButton(i) {
