@@ -121,7 +121,7 @@ function rayTrace(position, ray, scene, numBounces=0) { // returns a colour
     }
     if (obj.material == 'mirror') {
       if (numBounces >= Scene.bounceDepth) {
-
+        return 0;
       }
       let r = Vec3.substract(ray, normalVec.scale(2 * Vec3.dotProd(ray, normalVec))); // already unit vector 
       return 0.95 * rayTrace(k, r, scene, numBounces+1);
