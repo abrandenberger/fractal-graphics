@@ -1,3 +1,5 @@
+let l_ratio = 0.4;
+
 function generateFractal(position, s, l, depth) { 
   if (depth > 0) {
     // console.log("hi i'm running")

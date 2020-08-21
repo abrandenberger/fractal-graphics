@@ -1,3 +1,5 @@
+let epsilon = 0.0001;
+
 class Sphere {
   constructor(center, radius, material='matte') {
     this.center = center;
