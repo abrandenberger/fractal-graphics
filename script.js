@@ -71,7 +71,7 @@ function newWorkerImage() {
 
 function setup() {
   createElement('h2', '3D Mirror Fractal :))');
-  createCanvas(200, 200);
+  createCanvas(400, 400);
   for (let k = 0; k < lights.length; k++) {
     makeSlider(k);
   }
